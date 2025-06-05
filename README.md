@@ -24,7 +24,7 @@ Os dados foram coletados via **Serial Monitor**, processados no **Google Colab (
 
 ---
 
-## ⚙️ Componentes Simulados
+## 🧰 Componentes Simulados
 
 - ESP32  
 - Sensor DHT22 (Temperatura e Umidade)  
@@ -33,10 +33,10 @@ Os dados foram coletados via **Serial Monitor**, processados no **Google Colab (
 
 ## 📷 Capturas de Tela
 
-### 🔌 Circuito no Wokwi  
+### 🛠️ Circuito no Wokwi  
 ![Circuito](%7B41DADC56-995D-499D-8170-097EED502E65%7D.png)
 
-### 🧠 Código no Wokwi  
+### 👨‍💻 Código no Wokwi  
 ![Código](%7BCB2D9B1E-3635-447A-BC39-CF72057C5CF5%7D.png)
 
 ### 🖥️ Monitor Serial  
@@ -50,14 +50,10 @@ Os dados foram coletados via **Serial Monitor**, processados no **Google Colab (
 
 ---
 
-## 📁 Arquivos Importantes
+## ☁️ Acesse o Notebook no Google Colab
 
-- `sketch.ino` → Código da simulação no Wokwi  
-- `Untitled3.ipynb` → Notebook com análise dos dados  
-- `grafico_print.png` → Imagem do gráfico gerado  
+Para visualizar e executar a análise dos dados diretamente na nuvem:
+
+🔗 [Clique aqui para abrir no Google Colab](https://colab.research.google.com/drive/1apaaq5B5zoW0MCWxd2bXbapqm5lNb-6F?usp=sharing)
 
 ---
-
-## 📌 Observações
-
-Projeto desenvolvido para o **Enterprise Challenge - Sprint 2**, com foco em simulação de coleta de dados em sistemas embarcados usando ESP32, sensores e análise em Python.
