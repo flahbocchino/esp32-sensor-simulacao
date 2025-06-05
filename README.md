@@ -4,75 +4,60 @@ Simulação de coleta de dados com ESP32 e sensor DHT22 usando Wokwi e análise 
 
 ---
 
-## 📋 Objetivo
+## 🎯 Objetivo
 
-Este projeto simula a leitura de temperatura e umidade com o sensor **DHT22** conectado a um **ESP32** utilizando a plataforma **Wokwi**. Os dados coletados foram analisados em **Python (Google Colab)** com geração de gráfico.
+Este projeto simula a leitura de temperatura e umidade com o sensor **DHT22** conectado a um **ESP32**, utilizando a plataforma **Wokwi** para simulação do circuito.
+
+Os dados foram coletados via **Serial Monitor**, processados no **Google Colab (Python)**, e representados por gráfico com `matplotlib`.
 
 ---
 
 ## ✅ Checklist de Entrega
 
-- [x] Circuito virtual com ESP32 e sensor DHT22 criado no Wokwi
-- [x] Código `sketch.ino` implementado com leitura dos dados
-- [x] Execução via Monitor Serial no Wokwi
-- [x] Coleta dos dados e análise com pandas no Google Colab
-- [x] Geração de gráfico com matplotlib
-- [x] Arquivos e imagens adicionados no GitHub
+- [x] Circuito virtual com ESP32 e sensor DHT22 criado no Wokwi  
+- [x] Código `sketch.ino` implementado com leitura dos dados  
+- [x] Execução via Monitor Serial no Wokwi  
+- [x] Coleta dos dados e análise no Google Colab com pandas  
+- [x] Geração de gráfico com matplotlib  
+- [x] Arquivos e imagens adicionados no GitHub  
+- [x] `README.md` documentado com imagens e explicações  
 
 ---
 
-## 🔌 Componentes Simulados
+## ⚙️ Componentes Simulados
 
-- ESP32
-- Sensor DHT22 (Temperatura e Umidade)
+- ESP32  
+- Sensor DHT22 (Temperatura e Umidade)  
 
 ---
 
 ## 📷 Capturas de Tela
 
-### Circuito no Wokwi:
-![Circuito](coloque-aqui-o-nome-do-print.png)
+### 🔌 Circuito no Wokwi  
+![Circuito](%7B41DADC56-995D-499D-8170-097EED502E65%7D.png)
 
-### Monitor Serial com Dados:
-![Serial](coloque-aqui-o-nome-do-print-serial.png)
+### 🧠 Código no Wokwi  
+![Código](%7BCB2D9B1E-3635-447A-BC39-CF72057C5CF5%7D.png)
 
-### Gráfico gerado:
-![Gráfico](grafico.png)
+### 🖥️ Monitor Serial  
+![Serial](%7B8261E327-F6A0-4A2A-AFB1-801C34479089%7D.png)
 
----
+### 📊 Tabela de dados no Google Colab  
+![Tabela](%7BD784B8B2-F859-419C-9CEE-B18767533130%7D.png)
 
-## 🧠 Análise no Google Colab
-
-Notebook: [`analise_sensor_dht22.ipynb`](Untitled3.ipynb)
-
-- Conversão dos dados do monitor serial em DataFrame
-- Geração de gráfico com matplotlib
-- Temperatura e umidade estáveis durante a simulação
+### 📈 Gráfico gerado no Colab  
+![Gráfico](grafico_print.png)
 
 ---
 
-## 📁 Arquivos no Repositório
+## 📁 Arquivos Importantes
 
-| Arquivo | Descrição |
-|--------|-----------|
-| `sketch.ino` | Código usado na simulação Wokwi |
-| `Untitled3.ipynb` | Notebook com análise e gráfico |
-| `grafico.png` | Gráfico gerado com matplotlib |
-| `README.md` | Este arquivo |
+- `sketch.ino` → Código da simulação no Wokwi  
+- `Untitled3.ipynb` → Notebook com análise dos dados  
+- `grafico_print.png` → Imagem do gráfico gerado  
 
 ---
 
-## 🛠️ Como rodar esta simulação
+## 📌 Observações
 
-1. Acesse [https://wokwi.com](https://wokwi.com) e selecione o ESP32
-2. Conecte o sensor DHT22 com os seguintes pinos:
-   - VCC → 3V3
-   - GND → GND
-   - DATA → GPIO 15
-3. Cole o conteúdo do `sketch.ino` e inicie a simulação
-4. Copie os dados do Monitor Serial para o Colab
-5. Execute o notebook e gere os gráficos
-
----
-
-Feito com 💻 para a Hermes Reply – Enterprise Challenge (Sprint 2)
+Projeto desenvolvido para o **Enterprise Challenge - Sprint 2**, com foco em simulação de coleta de dados em sistemas embarcados usando ESP32, sensores e análise em Python.
