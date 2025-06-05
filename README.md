@@ -6,8 +6,7 @@ Simulação de coleta de dados com ESP32 e sensor DHT22 usando Wokwi e análise 
 
 ## 🎯 Objetivo
 
-Este projeto simula a leitura de temperatura e umidade com o sensor **DHT22** conectado a um **ESP32**, utilizando a plataforma **Wokwi** para simulação do circuito.
-
+Este projeto simula a leitura de temperatura e umidade com o sensor **DHT22** conectado a um **ESP32**, utilizando a plataforma **Wokwi** para simulação do circuito.  
 Os dados foram coletados via **Serial Monitor**, processados no **Google Colab (Python)**, e representados por gráfico com `matplotlib`.
 
 ---
@@ -24,36 +23,22 @@ Os dados foram coletados via **Serial Monitor**, processados no **Google Colab (
 
 ---
 
-## 🧰 Componentes Simulados
+## 🧪 Sensor Utilizado e Justificativa
+
+### 🔧 Sensor DHT22
+
+O sensor **DHT22** foi escolhido por ser um dos sensores digitais mais populares para leitura de **temperatura e umidade**. Ele é amplamente utilizado em projetos embarcados pela sua:
+
+- ✅ Facilidade de uso com bibliotecas prontas (como a `DHT.h`)
+- ✅ Compatibilidade com ESP32
+- ✅ Boa precisão para simulações
+- ✅ Suporte direto na plataforma Wokwi (simulação simples e estável)
+
+Essa escolha é ideal para projetos introdutórios de IoT e coleta de dados ambientais.
+
+---
+
+## 🧩 Componentes Simulados
 
 - ESP32  
-- Sensor DHT22 (Temperatura e Umidade)  
-
----
-
-## 📷 Capturas de Tela
-
-### 🛠️ Circuito no Wokwi  
-![Circuito](%7B41DADC56-995D-499D-8170-097EED502E65%7D.png)
-
-### 👨‍💻 Código no Wokwi  
-![Código](%7BCB2D9B1E-3635-447A-BC39-CF72057C5CF5%7D.png)
-
-### 🖥️ Monitor Serial  
-![Serial](%7B8261E327-F6A0-4A2A-AFB1-801C34479089%7D.png)
-
-### 📊 Tabela de dados no Google Colab  
-![Tabela](%7BD784B8B2-F859-419C-9CEE-B18767533130%7D.png)
-
-### 📈 Gráfico gerado no Colab  
-![Gráfico](grafico_print.png)
-
----
-
-## ☁️ Acesse o Notebook no Google Colab
-
-Para visualizar e executar a análise dos dados diretamente na nuvem:
-
-🔗 [Clique aqui para abrir no Google Colab](https://colab.research.google.com/drive/1apaaq5B5zoW0MCWxd2bXbapqm5lNb-6F?usp=sharing)
-
----
+- Sensor DHT22 (Temperatura
